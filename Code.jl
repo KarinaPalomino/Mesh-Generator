@@ -1,4 +1,4 @@
-## information 
+## information on polygon and plotting
 pv = [[0,0], [1,0], [0.5,.5], [1,1], [0,1], [0,0]]
 plot(first.(pv), last.(pv))
 axis("equal");
