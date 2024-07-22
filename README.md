@@ -28,6 +28,7 @@
 </details>
 
 ## Results
+
 ![alt text][logo]
 
-[logo]:<img width="721" alt="Screenshot 2024-07-22 at 4 54 47 PM" src="https://github.com/user-attachments/assets/a4744bae-af13-47ea-a8f4-c5aa0bdd8cf3">
+[logo]:<https://github.com/user-attachments/assets/a4744bae-af13-47ea-a8f4-c5aa0bdd8cf3>
