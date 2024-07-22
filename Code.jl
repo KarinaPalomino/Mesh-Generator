@@ -1,4 +1,19 @@
 ## information on polygon and plotting
+
+using PyPlot, LinearAlgebra, Delaunator
+
+function tplot(p, t)
+    # Plot triangular mesh with nodes `p` and triangles `t`
+    tris = convert(Array{Int64}, hcat(t...)')
+    tripcolor(first.(p), last.(p), tris .- 1, 0*tris[:,1],
+              cmap="Set3", edgecolors="k", linewidth=1)
+    axis("equal")
+    return
+end
+
+# Delaunay triangulation `t` of array of nodes `p`
+delaunay(p) = collect.(triangulate(p).triangles)
+
 pv = [[0,0], [1,0], [0.5,.5], [1,1], [0,1], [0,0]]
 plot(first.(pv), last.(pv))
 axis("equal");
