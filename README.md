@@ -6,7 +6,7 @@
   </details>
 <details>
   <summary> Triangle properties </summary>
-  Now we need information from these triangles, such as their area, centroid, and circumcenter. These will be recorded under the functions `tri_area(tri)`, `tri_centroid(tri)`, and `tri_circumcenter(tri)``tri_circumcenter(tri)`.
+  Now we need information from these triangles, such as their area, centroid, and circumcenter. These will be recorded under the functions `tri_area(tri)`, `tri_centroid(tri)`, and `tri_circumcenter(tri)`.
 </details>
 <details>
   <summary> Generating the Mesh </summary>
